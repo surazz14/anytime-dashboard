@@ -1,0 +1,26 @@
+// redux action names
+export const AUTH_START = "AUTH_START";
+export const AUTH_SUCCESS = "AUTH_SUCCESS";
+export const AUTH_FAIL = "AUTH_FAIL";
+export const AUTH_LOGOUT = "AUTH_LOGOUT";
+export const GET_PRODUCT = "GET_PRODUCT";
+export const ADD_PRODUCT = "ADD_PRODUCT";
+export const UPDATE_PRODUCT = "UPDATE_PRODUCT";
+export const GET_ARTICLE = "GET_ARTICLE";
+export const ADD_ARTICLE = "ADD_ARTICLE";
+export const UPDATE_ARTICLE = "UPDATE_ARTICLE";
+export const GET_ABOUT = "GET_ABOUT";
+export const ADD_ABOUT = "ADD_ABOUT";
+export const UPDATE_ABOUT = "UPDATE_ABOUT";
+export const GET_SLIDER = "GET_SLIDER";
+export const ADD_SLIDER = "ADD_SLIDER";
+export const UPDATE_SLIDER = "UPDATE_SLIDER";
+export const GET_CALENDAR_PAGE = "GET_CALENDAR_PAGE";
+export const ADD_CALENDAR_PAGE = "GET_CALENDAR_PAGE";
+export const UPDATE_CALENDAR_PAGE = "UPDATE_CALENDAR_PAGE";
+export const GET_MOBILE_PAGE_APP = "GET_MOBILE_PAGE_APP";
+export const ADD_MOBILE_PAGE_APP = "GET_MOBILE_PAGE_APP";
+export const UPDATE_MOBILE_PAGE_APP = "UPDATE_MOBILE_PAGE_APP";
+export const GET_EXTERNAL_LINK = "GET_EXTERNAL_LINK";
+export const ADD_EXTERNAL_LINK = "ADD_EXTERNAL_LINK";
+export const UPDATE_EXTERNAL_LINK = "UPDATE_EXTERNAL_LINK";
