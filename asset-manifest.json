@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/surazz14/anytime-dashboard/static/css/main.62893fdd.chunk.css",
-    "main.js": "/surazz14/anytime-dashboard/static/js/main.1e29884e.chunk.js",
-    "main.js.map": "/surazz14/anytime-dashboard/static/js/main.1e29884e.chunk.js.map",
-    "runtime-main.js": "/surazz14/anytime-dashboard/static/js/runtime-main.c388872b.js",
-    "runtime-main.js.map": "/surazz14/anytime-dashboard/static/js/runtime-main.c388872b.js.map",
-    "static/css/2.26fe57cc.chunk.css": "/surazz14/anytime-dashboard/static/css/2.26fe57cc.chunk.css",
-    "static/js/2.47919d1e.chunk.js": "/surazz14/anytime-dashboard/static/js/2.47919d1e.chunk.js",
-    "static/js/2.47919d1e.chunk.js.map": "/surazz14/anytime-dashboard/static/js/2.47919d1e.chunk.js.map",
-    "index.html": "/surazz14/anytime-dashboard/index.html",
-    "precache-manifest.530b22e233ff31e438699dbb80852a6d.js": "/surazz14/anytime-dashboard/precache-manifest.530b22e233ff31e438699dbb80852a6d.js",
-    "service-worker.js": "/surazz14/anytime-dashboard/service-worker.js",
-    "static/css/2.26fe57cc.chunk.css.map": "/surazz14/anytime-dashboard/static/css/2.26fe57cc.chunk.css.map",
-    "static/css/main.62893fdd.chunk.css.map": "/surazz14/anytime-dashboard/static/css/main.62893fdd.chunk.css.map",
-    "static/js/2.47919d1e.chunk.js.LICENSE": "/surazz14/anytime-dashboard/static/js/2.47919d1e.chunk.js.LICENSE"
+    "main.css": "/anytime-dashboard/static/css/main.62893fdd.chunk.css",
+    "main.js": "/anytime-dashboard/static/js/main.db99e9d1.chunk.js",
+    "main.js.map": "/anytime-dashboard/static/js/main.db99e9d1.chunk.js.map",
+    "runtime-main.js": "/anytime-dashboard/static/js/runtime-main.3d75de0f.js",
+    "runtime-main.js.map": "/anytime-dashboard/static/js/runtime-main.3d75de0f.js.map",
+    "static/css/2.26fe57cc.chunk.css": "/anytime-dashboard/static/css/2.26fe57cc.chunk.css",
+    "static/js/2.838f1e64.chunk.js": "/anytime-dashboard/static/js/2.838f1e64.chunk.js",
+    "static/js/2.838f1e64.chunk.js.map": "/anytime-dashboard/static/js/2.838f1e64.chunk.js.map",
+    "index.html": "/anytime-dashboard/index.html",
+    "precache-manifest.8af8b917b0e72c7483a5bbf575cc2598.js": "/anytime-dashboard/precache-manifest.8af8b917b0e72c7483a5bbf575cc2598.js",
+    "service-worker.js": "/anytime-dashboard/service-worker.js",
+    "static/css/2.26fe57cc.chunk.css.map": "/anytime-dashboard/static/css/2.26fe57cc.chunk.css.map",
+    "static/css/main.62893fdd.chunk.css.map": "/anytime-dashboard/static/css/main.62893fdd.chunk.css.map",
+    "static/js/2.838f1e64.chunk.js.LICENSE": "/anytime-dashboard/static/js/2.838f1e64.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.c388872b.js",
+    "static/js/runtime-main.3d75de0f.js",
     "static/css/2.26fe57cc.chunk.css",
-    "static/js/2.47919d1e.chunk.js",
+    "static/js/2.838f1e64.chunk.js",
     "static/css/main.62893fdd.chunk.css",
-    "static/js/main.1e29884e.chunk.js"
+    "static/js/main.db99e9d1.chunk.js"
   ]
 }
