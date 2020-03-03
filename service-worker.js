@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/anytime-dashboard/precache-manifest.8af8b917b0e72c7483a5bbf575cc2598.js"
+  "/anytime-dashboard/precache-manifest.f4172380d4a71cb3bbee5bfb29e69784.js"
 );
 
 self.addEventListener('message', (event) => {
