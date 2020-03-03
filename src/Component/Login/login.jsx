@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Row, Col, Form, Icon,notification } from "antd";
+import { Row, Col, Form, Icon, notification } from "antd";
 import { Field, reduxForm } from "redux-form";
 import { compose } from "redux";
 import { connect } from "react-redux";
@@ -25,7 +25,6 @@ function Login({ handleSubmit, onAuth, history }) {
       onAuth(event, resolve, reject);
     })
       .then(data => {
-        console.log("I am in login")
         history.push("/products");
         notification.success({
           message: "AnyTime",

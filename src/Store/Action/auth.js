@@ -1,5 +1,6 @@
 import * as actionType from "../types";
 import axiosInstance from "../../Utils/http";
+import apphistory from '../../apphistory';
 
 export const authStart = () => {
   return {
@@ -10,7 +11,7 @@ export const authStart = () => {
 export const authSuccess = token => {
   return {
     type: actionType.AUTH_SUCCESS,
-    idToken: token
+    isAuth: true
   };
 };
 
@@ -45,6 +46,7 @@ export const auth = (event, resolve, reject) => async dispatch => {
     const data = await axiosInstance.post("/users/login", event);
     localStorage.setItem("auth", data.data.token);
     dispatch(authSuccess(data.token));
+    apphistory.push('/products')
     resolve(data);
   } catch (err) {
     reject(err);

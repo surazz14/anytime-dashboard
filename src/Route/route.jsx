@@ -1,10 +1,12 @@
 import React from "react";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Route,
   Switch,
   Redirect
 } from "react-router-dom";
+import { connect } from "react-redux";
+
 import { Layout } from "antd";
 import apphistory from "../apphistory";
 
@@ -146,8 +148,8 @@ export const PrivateRoute = [
   }
 ];
 
-function Path() {
-  const isAuthenticated = localStorage.getItem("auth");
+function Path({ isAuth }) {
+  console.log(isAuth, "this is isAuth");
   return (
     <React.Fragment>
       <Router history={apphistory}>
@@ -171,7 +173,7 @@ function Path() {
                   key={path}
                   path={path}
                   render={props => {
-                    return isAuthenticated ? (
+                    return isAuth===true ? (
                       <Layout>
                         <Sidebar />
                         <Layout>
@@ -203,4 +205,8 @@ function Path() {
   );
 }
 
-export default Path;
+const mapStateToProps = state => ({
+  isAuth: state.data.isAuth
+});
+
+export default connect(mapStateToProps, {})(Path);
